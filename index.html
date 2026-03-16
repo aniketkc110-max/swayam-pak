@@ -49,9 +49,10 @@ body::after{content:'';position:fixed;inset:0;background-image:url("data:image/s
 .cnr.tl{top:18px;left:18px;} .cnr.tr{top:18px;right:18px;transform:scaleX(-1);} .cnr.bl{bottom:18px;left:18px;transform:scaleY(-1);} .cnr.br{bottom:18px;right:18px;transform:scale(-1,-1);}
 
 /* Hero text */
+.hero-ltm{font-family:'Cinzel',serif;font-size:18px;letter-spacing:.55em;text-transform:uppercase;color:var(--gold2);margin-bottom:10px;opacity:0;animation:rise 1.2s .05s forwards;font-weight:700;}
 .hero-eyebrow{font-family:'Cinzel',serif;font-size:8.5px;letter-spacing:.55em;text-transform:uppercase;color:var(--gold);margin-bottom:22px;opacity:0;animation:rise 1.2s .2s forwards;}
 .hero-pre{font-family:'Cormorant Garamond',serif;font-size:clamp(13px,2vw,18px);font-style:italic;color:var(--muted2);letter-spacing:.12em;margin-bottom:12px;opacity:0;animation:rise 1.2s .45s forwards;}
-.hero-title{font-family:'Cinzel',serif;font-size:clamp(40px,9vw,105px);font-weight:900;line-height:.92;letter-spacing:.04em;margin-bottom:6px;opacity:0;animation:rise 1.2s .7s forwards;}
+.hero-title{font-family:'Cinzel',serif;font-size:clamp(72px,20vw,260px);font-weight:900;line-height:.85;letter-spacing:.03em;margin-bottom:6px;opacity:0;animation:rise 1.2s .7s forwards;}
 .t1{display:block;background:linear-gradient(155deg,var(--cream) 20%,var(--offwhite) 55%,var(--gold2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
 .t2{display:block;background:linear-gradient(130deg,var(--gold2) 0%,var(--gold) 40%,var(--gold3) 80%,var(--gold2) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-style:italic;filter:drop-shadow(0 0 28px rgba(212,168,67,0.4));}
 .t3{display:block;font-size:clamp(16px,3.2vw,36px);letter-spacing:.38em;color:var(--muted2);font-weight:400;margin-top:10px;}
@@ -142,10 +143,11 @@ footer::before{content:'';position:absolute;top:0;left:50%;transform:translateX(
   <div class="cnr bl"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 62V2H62" stroke="#d4a843" stroke-width="1.2"/><path d="M2 32Q16 16 32 2" stroke="#d4a843" stroke-width=".6" opacity=".5"/><circle cx="2" cy="2" r="3" fill="#d4a843"/><circle cx="32" cy="2" r="1.8" fill="#d4a843" opacity=".5"/><circle cx="2" cy="32" r="1.8" fill="#d4a843" opacity=".5"/><circle cx="2" cy="62" r="1.5" fill="#d4a843" opacity=".3"/><circle cx="62" cy="2" r="1.5" fill="#d4a843" opacity=".3"/></svg></div>
   <div class="cnr br"><svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 62V2H62" stroke="#d4a843" stroke-width="1.2"/><path d="M2 32Q16 16 32 2" stroke="#d4a843" stroke-width=".6" opacity=".5"/><circle cx="2" cy="2" r="3" fill="#d4a843"/><circle cx="32" cy="2" r="1.8" fill="#d4a843" opacity=".5"/><circle cx="2" cy="32" r="1.8" fill="#d4a843" opacity=".5"/><circle cx="2" cy="62" r="1.5" fill="#d4a843" opacity=".3"/><circle cx="62" cy="2" r="1.5" fill="#d4a843" opacity=".3"/></svg></div>
 
-  <p class="hero-eyebrow">✦ &nbsp; An Evening of Fine Indian Flavours &nbsp; ✦</p>
-  <p class="hero-pre">Jai Jinendra — Welcome to</p>
 
-  <h1 class="hero-title">
+  <p class="hero-ltm">BY LTM</p>
+  <p class="hero-eyebrow">✦ &nbsp; Jay Sachidanand &nbsp; ✦</p>
+
+
     <span class="t1">Gnan Mandir</span>
     <span class="t2">Swayam Pak</span>
     <span class="t3">Menu Card</span>
@@ -184,7 +186,7 @@ footer::before{content:'';position:absolute;top:0;left:50%;transform:translateX(
     <div class="dish star">
       <div class="db">Chef's Pick</div>
       <div class="dn">Smiley Potato</div>
-      <div class="dd">Golden-fried potato bites shaped with a happy face · smoky sriracha dip · herb mayo</div>
+      <div class="dd">Golden-fried potato bites shaped with a happy face · ketchup</div>
       <div class="dt"><span class="tag">🌿 Veg</span><span class="tag">⭐ Popular</span><span class="tag">❄ Crispy</span></div>
     </div>
   </div>
@@ -198,7 +200,7 @@ footer::before{content:'';position:absolute;top:0;left:50%;transform:translateX(
     <div class="dish star">
       <div class="db">House Favourite</div>
       <div class="dn">Paneer Butter Masala</div>
-      <div class="dd">Soft cottage cheese in rich tomato-cashew gravy · dollop of cream · fragrant tadka</div>
+      <div class="dd">Soft cottage in rich tomato gravy · dollop of cream · fragrant tadka</div>
       <div class="dt"><span class="tag">🌿 Veg</span><span class="tag">⭐ Bestseller</span></div>
     </div>
     <div class="dish">
@@ -212,7 +214,7 @@ footer::before{content:'';position:absolute;top:0;left:50%;transform:translateX(
       <div class="dt"><span class="tag">🌿 Veg</span></div>
     </div>
     <div class="dish">
-      <div class="dn">Garden Salad</div>
+      <div class="dn">Salad</div>
       <div class="dd">Fresh greens · cherry tomato · cucumber · lemon dressing</div>
       <div class="dt"><span class="tag">🌿 Veg</span></div>
     </div>
@@ -227,7 +229,7 @@ footer::before{content:'';position:absolute;top:0;left:50%;transform:translateX(
     <div class="dish star">
       <div class="db">Must Try</div>
       <div class="dn">Chocolate Bliss</div>
-      <div class="dd">Warm dark chocolate mousse · vanilla cream · caramel drizzle · cherry on top</div>
+      <div class="dd">Cold dark chocolate mousse · vanilla cream · pomegranate on top</div>
       <div class="dt"><span class="tag">🌿 Veg</span><span class="tag">🍫 Indulgent</span><span class="tag">⭐ Signature</span></div>
     </div>
   </div>
@@ -241,7 +243,7 @@ footer::before{content:'';position:absolute;top:0;left:50%;transform:translateX(
     <div class="dish star">
       <div class="db">Refreshing</div>
       <div class="dn">Rose Lassi</div>
-      <div class="dd">Chilled yoghurt blended with rose syrup · cardamom · topped with rose petals &amp; cream</div>
+      <div class="dd">Chilled yoghurt blended with rose syrup · cardamom</div>
       <div class="dt"><span class="tag">🌿 Veg</span><span class="tag">🌹 Floral</span><span class="tag">❄ Chilled</span></div>
     </div>
   </div>
